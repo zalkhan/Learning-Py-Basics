@@ -48,8 +48,8 @@ print(total4)
 # We used a break statement to cancel out our negative numbers with our for loop
 given_list4 = [7, 5 , 4 , 4 , 3 , 1 , -2 , -3, -5, -7]
 total5 = 0
-for element in given_list4:
-    if element >= 0:
-        break
-    total5 += element
+i = 6
+while i < len(given_list4) and given_list4 [i] < 0 :
+        total5 += given_list4[i]
+        i+=1
 print(total5)
